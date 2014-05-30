@@ -50,8 +50,6 @@ flags-$(CONFIG_XENBUS) += -DCONFIG_XENBUS
 
 DEF_CFLAGS += $(flags-y)
 
-CFLAGS += -mfloat-abi=hard
-
 EXTRA_DEPS += links include/list.h
 
 # Include common mini-os makerules.
